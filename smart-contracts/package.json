@@ -1,0 +1,23 @@
+{
+  "name": "governance_proposal",
+  "version": "1.0.0",
+  "description": "A simple governance proposal contract",
+  "scripts": {
+    "test": "hardhat test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "hardhat": "^2.24.0",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
